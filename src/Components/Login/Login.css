@@ -1,0 +1,140 @@
+.login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #ececec;
+  
+}
+@media(max-width:700px) {
+  .login{
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 10px;
+    
+  }
+  .left-Content{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    
+    height: 30vh;
+   
+  }
+  .right-Content{
+    height: 70vh;
+  }
+  
+  .loginLeftContent{
+
+    width: 45vw;
+  height: 20vh;
+  margin-left: -60px;
+  margin-top: -30px;
+ 
+  
+
+  }
+  .login-right{
+   margin-top: -5em;
+  }
+  
+}
+.left-Content{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+
+ 
+}
+.right-Content{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  margin-right: 10px;
+ 
+}
+.login-left{
+ 
+  font-size: 1.4rem;
+  
+  width: 30vw;
+  height: 40vh;
+  margin-top: 8em;
+}
+.login-right{
+  
+  background-color: white;
+  height: 340px;
+  padding: 10px;
+  width: 23em;
+  box-shadow: 1px 2px 5px rgb(41, 41, 41);
+  border: none;
+  border-radius: 8px;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+}
+.loginFBtn{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.createNew-Btn{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#emailInput{
+  padding: 10px;
+  border: 0.5px solid lightgrey;
+  border-radius: 5px;
+}
+#passwordInput{
+  padding: 10px;
+  border: 0.5px solid lightgrey;
+  border-radius: 5px;
+}
+#logIn-Button{
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+  background-color: #0866FF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#loginHeading{
+  color: #0866FF;
+}
+#createBtn{
+  background-color: #42b72a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+#forgot-Btn{
+  color: #0866FF;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.create-Footer{
+  background-color: aqua;
+  
+}
+

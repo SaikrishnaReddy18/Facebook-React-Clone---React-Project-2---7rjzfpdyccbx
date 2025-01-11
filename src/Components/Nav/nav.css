@@ -1,0 +1,162 @@
+.link {
+    text-decoration: none;
+    color: white;
+    border: 0;
+  }
+  .navBarParrentBox{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    margin-top: 0px;
+  }
+  
+  .active-link {
+    text-decoration: none;
+    color: white;
+    border: 0;
+  }
+.navAppBar{
+  background-color: white;
+  box-shadow: 0px 1px 5px black;
+}
+
+  /*Search Bar*/
+  .search-Bar{
+    width: 15%;
+    background-color: lightgray;
+  }
+  .mailIconNav{
+    background-color:lightgray;
+    border-radius: 50%;
+    height: 35px !important;
+    width: 35px !important;
+    padding: 8px;
+  }
+  .notificationIconNav{
+    background-color:lightgray;
+    border-radius: 50%;
+    height: 35px !important;
+    width: 35px !important;
+    padding: 8px;
+  }
+
+  /*Modal Box */
+  .modalBox{
+    border: 2px solid black;
+    height: 65vh;
+    width: 22em;
+    margin: -30px 20px 0px 0px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px black;
+  }
+  .boxUser{
+    border: 2px solid black;
+    box-shadow: 1px 2px 5px black;
+    margin: 10px 20px 0px 20px;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+  }
+  .modalAcountIcon{
+    display: grid;
+    justify-content: right;
+  }
+  .acountData{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2px;
+    margin-left: 10px;
+  
+  }
+  .seeAllListButton{
+    height: 27px; 
+  }
+  .listItemProfile{
+    margin: 12px 10px 0px 10px;
+    border-radius: 5px;
+  }
+  .header_center {
+    display: flex;
+    flex-direction: row;
+   
+    gap: 50px;
+    width: 80%;
+}
+.header_option >.MuiSvgIcon-root{
+  color: grey;
+}
+
+.header_option:hover > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.header_option--active > .MuiSvgIcon-root{
+  color: #2e81f4;
+}
+
+.header_option--active {
+  border-bottom: 4px solid #2e81f4;
+}
+
+.header_option {
+  display: flex;
+
+  cursor: pointer;
+}
+
+.header_option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  border-bottom: 0;
+}
+.responsiveSection{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+ 
+}
+.black-link{
+  color: black;
+  text-decoration: none;
+}
+.linkIcon{
+  color: #2e81f4;
+}
+@media(max-width: 600px){
+  .navAppBar{
+    display: flex;
+    flex-direction: row;
+  }
+  .responsiveSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .search-Bar{
+    width: 63%;
+  }
+  .seachInput{
+    width: 300px;
+    margin-left: 0px;
+  }
+  .header_center {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+}
+  .header_option {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    cursor: pointer;
+    
+}
+}
+
